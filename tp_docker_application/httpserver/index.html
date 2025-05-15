@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker HTTP Server</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            text-align: center;
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .docker-logo {
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .status {
+            background: rgba(46, 196, 182, 0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
+             alt="Docker Logo" 
+             class="docker-logo">
+        <h1>Docker HTTP Server</h1>
+        <p>Welcome to our containerized web server! This page is being served from a Docker container running Apache HTTP Server.</p>
+        <div class="status">🟢 Container Status: Running</div>
+    </div>
+</body>
+</html>
